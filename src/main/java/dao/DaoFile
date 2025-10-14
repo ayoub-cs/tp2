@@ -2,10 +2,11 @@ package dao;
 
 import org.springframework.stereotype.Component;
 
-@Component("dao")
-public class DaoImpl implements IDao {
+@Component("daoFile")
+public class DaoFile implements IDao {
+
     @Override
     public double getValue() {
-        return 10;
+        return 84; // valeur simulée pour test
     }
 }
